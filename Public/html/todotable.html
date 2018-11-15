@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+     <link rel="stylesheet" href="../assets/css/reset.css">
+     <link href="https://fonts.googleapis.com/css?family=Montserrat|Open+Sans" rel="stylesheet">
+     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+     <link rel="stylesheet" href="../assets/css/style.css">
+     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
+     <script src="../assets/js/todotable.js"></script>
+    <title>ToDo list App</title>
+</head>
+    <body>
+        <div id="container">
+            <header>
+                <span class="col-xs-12">
+                    <h1 id="headertxt">Banesa's to do list</h1>
+                </span>
+            </header>
+            <main>
+                <div class="form-group">
+                    <form role="form" autocomplete="off" class="input-group-btn">
+                        <div class="autocomplete" id="autoMainId">
+                            <input class="form-control" name="inputListItem" placeholder="Add a new to do" id="inputTxtId"/>
+                        </div>
+                        <button class="fa" type="submit" id="addBtn">&#xf064;</button>
+                    </form>
+                    <hr class="style13"/>
+                </div>
+                <ul class="list-unstyled" id="todo"></ul>
+            </main>
+        </div>
+    </body>
+</html>

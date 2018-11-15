@@ -1,0 +1,116 @@
+#container{
+    display: grid;
+    height: 100%;
+    grid-template-rows: 100px, 1fr;
+    grid-template-columns: 1fr;
+    font-family: 'Open Sans', sans-serif;
+}
+
+header{
+    grid-area: 1, 1, span 1, span1;
+    background: linear-gradient(141deg, #cf1487 0%, #cf1487 51%, #cf1487 75%);
+    height: 100px;
+    color: white;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+h1{
+    font-size: 34px;
+    font-weight: bold;
+    margin-top: 25px;
+    margin-left: 10%;
+}
+
+main{
+    grid-area: 2, 1,span 1, span1;
+    margin: 15px;
+    display: grid;
+    grid-template-rows: 100px, 1fr;
+    grid-template-columns: 1fr;
+    border: 2px solid;
+    border-radius: 15px;
+
+}
+
+.form-group {
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+form {
+    position: relative;   
+}
+
+.form-control{
+    width: 100%;
+    font-weight: bold;
+    border: 2px solid #c55bb3;
+    border-radius: 15px;
+}
+
+#addBtn{
+    background-color: transparent;
+    border: transparent;
+    font-size:20px;
+    width: 7%;
+    position: absolute;
+    top: 20%;
+    right: 1%;
+}
+
+#inputTxtId{
+  width: 90%;
+  padding-right: 2%;
+}
+
+hr{
+    margin-top: 27px;
+    width: 90%;
+}
+
+ #todo {
+    margin: 10%;
+    margin-top: 1%;
+    text-align: center;
+} 
+
+.mt-4{
+    background-color: rgb(238, 237, 237);
+    border-radius: 25px;
+    display: grid;
+    grid-template-columns: 0.05fr 1fr 0.05fr;
+    grid-template-rows: 1fr;
+}
+
+#checkboxId{
+    width: 30px;
+    height: 30px;
+    background: white;
+}
+
+p{
+    font-weight: bold;
+}
+
+#removeBtn{
+    background: transparent;
+    border: none;
+}
+
+@media only screen and (min-width: 600px){
+    main{
+        border: none;
+    }
+    h1{
+        font-size: 36px;
+    }
+
+    #addBtn{
+        font-size:24px;
+    } 
+
+}
