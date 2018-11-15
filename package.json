@@ -19,6 +19,6 @@
   "homepage": "https://github.com/BanesaG/Homework6-to-do-app#readme",
   "dependencies": {
     "express": "^4.16.4",
-    "mongoose": "^5.3.10"
+    "mongoose": "^5.3.12"
   }
 }
