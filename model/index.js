@@ -1,3 +1,3 @@
 module.exports = {
-    ToDoList: require("./todoList")
+    ToDoList: require("./todolist")
   };
